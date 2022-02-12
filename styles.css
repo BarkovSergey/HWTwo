@@ -9,6 +9,9 @@ body,html {
     justify-content: center;
     height: 2000px;
     width: 100%;
+    max-width: 3000px;
+    min-width: 360px;
+    margin: 0 auto;
 }
 .header {
     display: flex;
@@ -18,6 +21,7 @@ body,html {
     width: 100%;
     background-color: #ff69b4;
     min-width: 360px;
+    flex-wrap: wrap;
 
     }
 .header-inside {
@@ -58,15 +62,13 @@ body,html {
     background-color: darkorange;
 }
 
-
-
-
 .content {
     width: 100%;
     background-color: #ff69b4;
     min-width: 360px;
     flex: 0.8;
     display: flex;
+    flex-wrap: wrap;
 }
 .distribution {
     display: flex;
@@ -80,7 +82,7 @@ body,html {
     display: flex;
     justify-content: flex-end;
     background-color: yellow ;
-    height: 200px;
+    height: 15%;
 }
 .politic {
     background-color: lightgreen;
@@ -89,6 +91,7 @@ body,html {
 }
 .content-work {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     background-color: yellow ;
@@ -132,13 +135,14 @@ body,html {
 
 
 .footer {
-    width: 99.70%;
+    width: 100%;
     background-color: #ff69b4;
     min-width: 360px;
     display: flex;
     flex: 0.1;
     flex-direction: column;
     align-items: flex-end;
+    flex-wrap: wrap;
 }
 .info {
     background-color: yellow;
