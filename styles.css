@@ -17,11 +17,8 @@ body,html {
     justify-content: center;
     align-items: center;
     flex: 0.3;
-    width: 100%;
     background-color: #ff69b4;
-    flex-wrap: wrap;
-
-    }
+}
 .header-inside {
     height: 30%;
     display: flex;
@@ -59,11 +56,9 @@ body,html {
 }
 
 .content {
-    width: 100%;
     background-color: #ff69b4;
     flex: 0.8;
     display: flex;
-    flex-wrap: wrap;
 }
 .distribution {
     display: flex;
@@ -127,7 +122,6 @@ body,html {
 
 
 .footer {
-    width: 100%;
     background-color: #ff69b4;
     display: flex;
     flex: 0.1;
