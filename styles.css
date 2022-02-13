@@ -10,8 +10,6 @@ body,html {
     justify-content: center;
     height: 100%;
     width: 100%;
-    max-width: 3000px;
-    min-width: 360px;
     margin: 0 auto;
 }
 .header {
@@ -41,13 +39,11 @@ body,html {
     align-items: center;
     flex: 5;
     background-color: yellow;
-    flex-wrap: wrap;
 }
 .block {
     height: 100%;
     display: flex;
     width: 70%;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -65,7 +61,6 @@ body,html {
 .content {
     width: 100%;
     background-color: #ff69b4;
-    min-width: 360px;
     flex: 0.8;
     display: flex;
     flex-wrap: wrap;
@@ -76,7 +71,6 @@ body,html {
     background-color: hotpink ;
     width: 50%;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 .content-news {
     display: flex;
@@ -91,7 +85,6 @@ body,html {
 }
 .content-work {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     background-color: yellow ;
@@ -107,7 +100,6 @@ body,html {
     background-color: hotpink;
     width: 50%;
     align-items: center;
-    flex-wrap: wrap;
 }
 .admins {
     background-color: lightgreen;
@@ -137,7 +129,6 @@ body,html {
 .footer {
     width: 100%;
     background-color: #ff69b4;
-    min-width: 360px;
     display: flex;
     flex: 0.1;
     flex-direction: column;
