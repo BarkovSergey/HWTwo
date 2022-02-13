@@ -21,7 +21,6 @@ body,html {
     flex: 0.3;
     width: 100%;
     background-color: #ff69b4;
-    min-width: 360px;
     flex-wrap: wrap;
 
     }
