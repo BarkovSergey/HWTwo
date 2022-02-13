@@ -2,8 +2,8 @@ body,html {
     margin: 0;
     padding: 0;
     height: 100%;
-
 }
+
 .main {
     display: flex;
     flex-direction: column;
@@ -13,6 +13,7 @@ body,html {
     width: 100%;
     margin: 0 auto;
 }
+
 .header {
     display: flex;
     justify-content: center;
@@ -20,6 +21,7 @@ body,html {
     flex: 0.3;
     background-color: #ff69b4;
 }
+
 .header-inside {
     height: 30%;
     display: flex;
@@ -30,6 +32,7 @@ body,html {
     flex: 2;
     background-color: lightgreen;
 }
+
 .box-right {
     display: flex;
     justify-content: center;
@@ -37,6 +40,7 @@ body,html {
     flex: 5;
     background-color: yellow;
 }
+
 .block {
     height: 100%;
     display: flex;
@@ -44,11 +48,13 @@ body,html {
     justify-content: center;
     align-items: center;
 }
+
 .block-left {
     height: 50%;
     flex: 2;
     background-color: saddlebrown;
 }
+
 .block-right {
     height: 50%;
     flex: 5;
@@ -60,6 +66,7 @@ body,html {
     flex: 0.8;
     display: flex;
 }
+
 .distribution {
     display: flex;
     flex-direction: column;
@@ -67,17 +74,20 @@ body,html {
     width: 50%;
     justify-content: space-between;
 }
+
 .content-news {
     display: flex;
     justify-content: flex-end;
     background-color: yellow ;
     height: 15%;
 }
+
 .politic {
     background-color: lightgreen;
     height: 100%;
     width: 20%;
 }
+
 .content-work {
     display: flex;
     justify-content: center;
@@ -85,27 +95,32 @@ body,html {
     background-color: yellow ;
     height: 15%;
 }
+
 .working {
     background-color: lightgreen;
     height: 50%;
     width: 50%;
 }
+
 .comments {
     display: flex;
     background-color: hotpink;
-    width: 50%;
+    flex: 1;
     align-items: center;
 }
+
 .admins {
     background-color: lightgreen;
     height: 15%;
     flex: 2;
 }
+
 .user {
     background-color: yellow;
     height: 15%;
     flex: 4;
 }
+
 .moderators {
     background-color: lightgreen;
     height: 15%;
@@ -113,11 +128,11 @@ body,html {
     display: flex;
     flex-direction: column-reverse;
 }
+
 .primary {
     background-color: darkorange;
     height: 30%;
 }
-
 
 .footer {
     background-color: #ff69b4;
@@ -126,11 +141,13 @@ body,html {
     flex-direction: column;
     align-items: flex-end;
 }
+
 .info {
     background-color: yellow;
     width: 40%;
     flex: 2;
 }
+
 .phone {
     background-color: lightgreen;
     width: 40%;
