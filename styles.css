@@ -8,6 +8,7 @@ body,html {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
     height: 100%;
     width: 100%;
     margin: 0 auto;
@@ -23,7 +24,6 @@ body,html {
     height: 30%;
     display: flex;
     width: 45%;
-    flex-wrap: wrap;
     justify-content: center;
 }
 .box {
@@ -119,15 +119,12 @@ body,html {
 }
 
 
-
-
 .footer {
     background-color: #ff69b4;
     display: flex;
     flex: 0.1;
     flex-direction: column;
     align-items: flex-end;
-    flex-wrap: wrap;
 }
 .info {
     background-color: yellow;
